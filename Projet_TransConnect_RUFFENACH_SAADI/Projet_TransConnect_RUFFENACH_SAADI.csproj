@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Projet_TransConnect_RUFFENACH_SAADI</RootNamespace>
+    <AssemblyName>Projet_TransConnect_RUFFENACH_SAADI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Personne.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Salarie.cs" />
+    <Compile Include="Noeud.cs" />
+    <Compile Include="Arbre.cs" />
+    <Compile Include="Vehicule.cs" />
+    <Compile Include="Commande.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Entreprise.cs" />
+    <Compile Include="ListeCommande.cs" />
+    <Compile Include="IMoyenne.cs" />
+    <Compile Include="CommandeInterFace.cs" />
+    <Compile Include="SalarieInterface.cs" />
+    <Compile Include="Graphe.cs" />
+    <Compile Include="Lien.cs" />
+    <Compile Include="Noeud1.cs" />
+    <Compile Include="Etape.cs" />
+    <Compile Include="ListeClients.cs" />
+    <Compile Include="ClientInterface.cs" />
+    <Compile Include="Maillon.cs" />
+    <Compile Include="ListeSCE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet_TransConnect_RUFFENACH_SAADI", "Projet_TransConnect_RUFFENACH_SAADI\Projet_TransConnect_RUFFENACH_SAADI.csproj", "{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testunitaire", "testunitaire\testunitaire.csproj", "{CA053AAB-0372-460C-8C43-3516E71933FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D1838CC9-BE1E-4D6D-9D56-1E4378B44F80}.Release|anycpu.Build.0 = Release|anycpu
+		{CA053AAB-0372-460C-8C43-3516E71933FE}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{CA053AAB-0372-460C-8C43-3516E71933FE}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{CA053AAB-0372-460C-8C43-3516E71933FE}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{CA053AAB-0372-460C-8C43-3516E71933FE}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0840B92A-772B-42DB-AB93-98A17860F9D5}
+	EndGlobalSection
+EndGlobal
